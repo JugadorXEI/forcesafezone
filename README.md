@@ -2,9 +2,9 @@
 This plugin can force a safe zone/koth zone in Battle Royale. Maybe (read below).
 
 ## Commands:
-**sm_zones** | **sm_zonelist**: Gives you a list of zones on the map (mapdata zones won't appear and thus can't be forced.)
-**sm_forcezone**: Will force the zone to be the one selected by the game logic.
-**sm_activatezone**: Will force the zone's effects to activate. This can't be done if a zone is active.
+- **sm_zones** | **sm_zonelist**: Gives you a list of zones on the map (mapadd zones won't appear and thus can't be forced.)
+- **sm_forcezone**: Will force the zone to be the one selected by the game logic.
+- **sm_activatezone**: Will force the zone's effects to activate. This can't be done if a zone is active.
 
 ## Known bugs:
 ```

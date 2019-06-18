@@ -94,7 +94,7 @@ public Action Event_KOTHZone(Event hEvent, const char[] cName, bool bDontBroadca
 {	
 	// We delete all other zones just so the one we want to force gets
 	// triggered instead.
-	if (!cvIsEnabled.BoolValue || g_iCurrentlyForcedSafeZone == -1)
+	if (!cvIsEnabled.BoolValue || g_iCurrentlyForcedSafeZone == -1 || !g_bIsBREnabled)
 		return Plugin_Continue;
 	
 	for(int i = 0; i < sizeof(g_iSafezoneArray); i++)

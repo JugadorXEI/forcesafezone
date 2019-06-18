@@ -125,7 +125,7 @@ public Action ForceSafeZone(int iClient, int iArgs)
 	
 	if (g_bAreWeForcingZone)
 	{
-		ReplyToCommand(iClient, "A zone cannot be forced while while one is active.");
+		ReplyToCommand(iClient, "A zone cannot be forced while one is active.");
 		return Plugin_Handled;
 	}
 	
